@@ -6,6 +6,7 @@ const pool = new Pool({
     database: 'neondb',
     password: 'npg_WUmQdXwNZ2f6',
     ssl: { rejectUnauthorized: false },
+    //Opera en el puerto 5432 en configuracion por defecto
 });
 
 module.exports = { pool }
